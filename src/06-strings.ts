@@ -11,13 +11,16 @@
   const productDescription = "B'la bla bla bla bla";
   console.log('productDescription',productDescription);
 
+
   let productPrice = 100;
+  let typeDateProductoPrice = typeof productPrice;
   let isNew: boolean = false;
 
   const sumary = `
     title: ${productTitile}
     descripcion: ${productDescription}
     precio: ${productPrice}
+    Tipo de dato del precio: ${typeDateProductoPrice}
     isNew: ${isNew}
   `;
 

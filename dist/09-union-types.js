@@ -9,9 +9,9 @@
             console.log(`Es un string ${myText.toLowerCase()}`);
         }
         else {
-            console.log(`Es un string ${myText.toFixed(1)}`);
+            console.log(`Es un number ${myText.toFixed(1)}`);
         }
     }
     greeTing('Hola');
-    greeTing(12.36);
+    greeTing(12.35);
 })();
